@@ -18,5 +18,15 @@ RSpec.describe 'Recipes API' do
       expect(recipes[:data][0][:attributes]).to_not have_key(:uri)
       expect(recipes[:data][0][:attributes]).to_not have_key(:yeild)
     end
+
+    it 'returns the recipes and following info' do
+      get '/api/v1/recipes', params: {country: "Kyrgyzstan"}
+      expect(response).to be_successful
+      
+      recipes = JSON.parse(response.body, symbolize_names: true)
+      expect(recipes).to be_a Hash
+      expect(recipes).to have_key(:data)
+      expect(recipes[:data]).to eq([])
+    end
   end
 end

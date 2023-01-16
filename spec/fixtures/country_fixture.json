@@ -208,5 +208,1229 @@
       "format": "#####",
       "regex": "^(\\d{5})$"
     }
+  },
+  {
+    "name": {
+      "common": "Grenada",
+      "official": "Grenada",
+      "nativeName": {
+        "eng": {
+          "official": "Grenada",
+          "common": "Grenada"
+        }
+      }
+    },
+    "tld": [
+      ".gd"
+    ],
+    "cca2": "GD",
+    "ccn3": "308",
+    "cca3": "GRD",
+    "cioc": "GRN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "XCD": {
+        "name": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    },
+    "idd": {
+      "root": "+1",
+      "suffixes": [
+        "473"
+      ]
+    },
+    "capital": [
+      "St. George's"
+    ],
+    "altSpellings": [
+      "GD"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "translations": {
+      "ara": {
+        "official": "غرينادا",
+        "common": "غرينادا"
+      },
+      "bre": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "ces": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "cym": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "deu": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "est": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "fin": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "fra": {
+        "official": "Grenade",
+        "common": "Grenade"
+      },
+      "hrv": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "hun": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "ita": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "jpn": {
+        "official": "グレナダ",
+        "common": "グレナダ"
+      },
+      "kor": {
+        "official": "그레나다",
+        "common": "그레나다"
+      },
+      "nld": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "per": {
+        "official": "گرنادا",
+        "common": "گرنادا"
+      },
+      "pol": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "por": {
+        "official": "Grenada",
+        "common": "Granada"
+      },
+      "rus": {
+        "official": "Гренада",
+        "common": "Гренада"
+      },
+      "slk": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "spa": {
+        "official": "Granada",
+        "common": "Grenada"
+      },
+      "swe": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "tur": {
+        "official": "Grenada",
+        "common": "Grenada"
+      },
+      "urd": {
+        "official": "گریناڈا",
+        "common": "گریناڈا"
+      },
+      "zho": {
+        "official": "格林纳达",
+        "common": "格林纳达"
+      }
+    },
+    "latlng": [
+      12.11666666,
+      -61.66666666
+    ],
+    "landlocked": false,
+    "area": 344.0,
+    "demonyms": {
+      "eng": {
+        "f": "Grenadian",
+        "m": "Grenadian"
+      },
+      "fra": {
+        "f": "Grenadienne",
+        "m": "Grenadien"
+      }
+    },
+    "flag": "🇬🇩",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/550727"
+    },
+    "population": 112519,
+    "fifa": "GRN",
+    "car": {
+      "signs": [
+        "WG"
+      ],
+      "side": "left"
+    },
+    "timezones": [
+      "UTC-04:00"
+    ],
+    "continents": [
+      "North America"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/gd.png",
+      "svg": "https://flagcdn.com/gd.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/gd.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/gd.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        32.38,
+        -64.68
+      ]
+    }
+  },
+  {
+    "name": {
+      "common": "Malaysia",
+      "official": "Malaysia",
+      "nativeName": {
+        "eng": {
+          "official": "Malaysia",
+          "common": "Malaysia"
+        },
+        "msa": {
+          "official": "مليسيا",
+          "common": "مليسيا"
+        }
+      }
+    },
+    "tld": [
+      ".my"
+    ],
+    "cca2": "MY",
+    "ccn3": "458",
+    "cca3": "MYS",
+    "cioc": "MAS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "MYR": {
+        "name": "Malaysian ringgit",
+        "symbol": "RM"
+      }
+    },
+    "idd": {
+      "root": "+6",
+      "suffixes": [
+        "0"
+      ]
+    },
+    "capital": [
+      "Kuala Lumpur"
+    ],
+    "altSpellings": [
+      "MY"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": {
+      "eng": "English",
+      "msa": "Malay"
+    },
+    "translations": {
+      "ara": {
+        "official": "ماليزيا",
+        "common": "ماليزيا"
+      },
+      "bre": {
+        "official": "Malaysia",
+        "common": "Malaysia"
+      },
+      "ces": {
+        "official": "Malajsie",
+        "common": "Malajsie"
+      },
+      "cym": {
+        "official": "Malaysia",
+        "common": "Malaysia"
+      },
+      "deu": {
+        "official": "Malaysia",
+        "common": "Malaysia"
+      },
+      "est": {
+        "official": "Malaisia",
+        "common": "Malaisia"
+      },
+      "fin": {
+        "official": "Malesia",
+        "common": "Malesia"
+      },
+      "fra": {
+        "official": "Fédération de Malaisie",
+        "common": "Malaisie"
+      },
+      "hrv": {
+        "official": "Malezija",
+        "common": "Malezija"
+      },
+      "hun": {
+        "official": "Malajzia",
+        "common": "Malajzia"
+      },
+      "ita": {
+        "official": "Malaysia",
+        "common": "Malesia"
+      },
+      "jpn": {
+        "official": "マレーシア",
+        "common": "マレーシア"
+      },
+      "kor": {
+        "official": "말레이시아",
+        "common": "말레이시아"
+      },
+      "nld": {
+        "official": "Maleisië",
+        "common": "Maleisië"
+      },
+      "per": {
+        "official": "فدراسیون مالزی",
+        "common": "مالزی"
+      },
+      "pol": {
+        "official": "Malezja",
+        "common": "Malezja"
+      },
+      "por": {
+        "official": "Malásia",
+        "common": "Malásia"
+      },
+      "rus": {
+        "official": "Малайзия",
+        "common": "Малайзия"
+      },
+      "slk": {
+        "official": "Malajzia",
+        "common": "Malajzia"
+      },
+      "spa": {
+        "official": "Malasia",
+        "common": "Malasia"
+      },
+      "swe": {
+        "official": "Malaysia",
+        "common": "Malaysia"
+      },
+      "tur": {
+        "official": "Malezya",
+        "common": "Malezya"
+      },
+      "urd": {
+        "official": "ملائیشیا",
+        "common": "ملائیشیا"
+      },
+      "zho": {
+        "official": "马来西亚",
+        "common": "马来西亚"
+      }
+    },
+    "latlng": [
+      2.5,
+      112.5
+    ],
+    "landlocked": false,
+    "borders": [
+      "BRN",
+      "IDN",
+      "THA"
+    ],
+    "area": 330803.0,
+    "demonyms": {
+      "eng": {
+        "f": "Malaysian",
+        "m": "Malaysian"
+      },
+      "fra": {
+        "f": "Malaisienne",
+        "m": "Malaisien"
+      }
+    },
+    "flag": "🇲🇾",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/2108121"
+    },
+    "population": 32365998,
+    "gini": {
+      "2015": 41.1
+    },
+    "fifa": "MAS",
+    "car": {
+      "signs": [
+        "MAL"
+      ],
+      "side": "left"
+    },
+    "timezones": [
+      "UTC+08:00"
+    ],
+    "continents": [
+      "Asia"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/my.png",
+      "svg": "https://flagcdn.com/my.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/my.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/my.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [
+        3.17,
+        101.7
+      ]
+    },
+    "postalCode": {
+      "format": "#####",
+      "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+      "common": "French Guiana",
+      "official": "Guiana",
+      "nativeName": {
+        "fra": {
+          "official": "Guyane",
+          "common": "Guyane française"
+        }
+      }
+    },
+    "tld": [
+      ".gf"
+    ],
+    "cca2": "GF",
+    "ccn3": "254",
+    "cca3": "GUF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "idd": {
+      "root": "+5",
+      "suffixes": [
+        "94"
+      ]
+    },
+    "capital": [
+      "Cayenne"
+    ],
+    "altSpellings": [
+      "GF",
+      "Guiana",
+      "Guyane"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+      "fra": "French"
+    },
+    "translations": {
+      "ara": {
+        "official": "غويانا الفرنسية",
+        "common": "غويانا"
+      },
+      "bre": {
+        "official": "Gwiana C'hall",
+        "common": "Gwiana C'hall"
+      },
+      "ces": {
+        "official": "Francouzská Guyana",
+        "common": "Francouzská Guyana"
+      },
+      "cym": {
+        "official": "Guiana",
+        "common": "French Guiana"
+      },
+      "deu": {
+        "official": "Französisch-Guayana",
+        "common": "Französisch-Guayana"
+      },
+      "est": {
+        "official": "Guajaana departemang",
+        "common": "Prantsuse Guajaana"
+      },
+      "fin": {
+        "official": "Ranskan Guayana",
+        "common": "Ranskan Guayana"
+      },
+      "fra": {
+        "official": "Guyane",
+        "common": "Guyane"
+      },
+      "hrv": {
+        "official": "Gijana",
+        "common": "Francuska Gvajana"
+      },
+      "hun": {
+        "official": "Francia Guyana",
+        "common": "Francia Guyana"
+      },
+      "ita": {
+        "official": "Guiana",
+        "common": "Guyana francese"
+      },
+      "jpn": {
+        "official": "ギアナ",
+        "common": "フランス領ギアナ"
+      },
+      "kor": {
+        "official": "프랑스령 기아나",
+        "common": "프랑스령 기아나"
+      },
+      "nld": {
+        "official": "Guyana",
+        "common": "Frans-Guyana"
+      },
+      "per": {
+        "official": "گویان فرانسه",
+        "common": "گویان فرانسه"
+      },
+      "pol": {
+        "official": "Gujana Francuska",
+        "common": "Gujana Francuska"
+      },
+      "por": {
+        "official": "Guiana",
+        "common": "Guiana Francesa"
+      },
+      "rus": {
+        "official": "Гвиана",
+        "common": "Французская Гвиана"
+      },
+      "slk": {
+        "official": "Francúzska Guyana",
+        "common": "Guyana"
+      },
+      "spa": {
+        "official": "Guayana",
+        "common": "Guayana Francesa"
+      },
+      "swe": {
+        "official": "Franska Guyana",
+        "common": "Franska Guyana"
+      },
+      "tur": {
+        "official": "Fransız Guyanası",
+        "common": "Fransız Guyanası"
+      },
+      "urd": {
+        "official": "گیانا",
+        "common": "فرانسیسی گیانا"
+      },
+      "zho": {
+        "official": "法属圭亚那",
+        "common": "法属圭亚那"
+      }
+    },
+    "latlng": [
+      4.0,
+      -53.0
+    ],
+    "landlocked": false,
+    "borders": [
+      "BRA",
+      "SUR"
+    ],
+    "area": 83534.0,
+    "demonyms": {
+      "eng": {
+        "f": "Guianan",
+        "m": "Guianan"
+      },
+      "fra": {
+        "f": "Guyanaise",
+        "m": "Guyanais"
+      }
+    },
+    "flag": "🇬🇫",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/NJawFwMzG7YtCrVP7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/2502058"
+    },
+    "population": 254541,
+    "car": {
+      "signs": [
+        "F"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC-03:00"
+    ],
+    "continents": [
+      "South America"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/gf.png",
+      "svg": "https://flagcdn.com/gf.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/gf.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/gf.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        4.94,
+        -52.33
+      ]
+    },
+    "postalCode": {
+      "format": "#####",
+      "regex": "^((97|98)3\\d{2})$"
+    }
+  },
+  {
+    "name": {
+      "common": "Spain",
+      "official": "Kingdom of Spain",
+      "nativeName": {
+        "spa": {
+          "official": "Reino de España",
+          "common": "España"
+        }
+      }
+    },
+    "tld": [
+      ".es"
+    ],
+    "cca2": "ES",
+    "ccn3": "724",
+    "cca3": "ESP",
+    "cioc": "ESP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "EUR": {
+        "name": "Euro",
+        "symbol": "€"
+      }
+    },
+    "idd": {
+      "root": "+3",
+      "suffixes": [
+        "4"
+      ]
+    },
+    "capital": [
+      "Madrid"
+    ],
+    "altSpellings": [
+      "ES",
+      "Kingdom of Spain",
+      "Reino de España"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "translations": {
+      "ara": {
+        "official": "مملكة إسبانيا",
+        "common": "إسبانيا"
+      },
+      "bre": {
+        "official": "Rouantelezh Spagn",
+        "common": "Spagn"
+      },
+      "ces": {
+        "official": "Španělské království",
+        "common": "Španělsko"
+      },
+      "cym": {
+        "official": "Kingdom of Spain",
+        "common": "Spain"
+      },
+      "deu": {
+        "official": "Königreich Spanien",
+        "common": "Spanien"
+      },
+      "est": {
+        "official": "Hispaania Kuningriik",
+        "common": "Hispaania"
+      },
+      "fin": {
+        "official": "Espanjan kuningaskunta",
+        "common": "Espanja"
+      },
+      "fra": {
+        "official": "Royaume d'Espagne",
+        "common": "Espagne"
+      },
+      "hrv": {
+        "official": "Kraljevina Španjolska",
+        "common": "Španjolska"
+      },
+      "hun": {
+        "official": "Spanyol Királyság",
+        "common": "Spanyolország"
+      },
+      "ita": {
+        "official": "Regno di Spagna",
+        "common": "Spagna"
+      },
+      "jpn": {
+        "official": "スペイン王国",
+        "common": "スペイン"
+      },
+      "kor": {
+        "official": "에스파냐 왕국",
+        "common": "스페인"
+      },
+      "nld": {
+        "official": "Koninkrijk Spanje",
+        "common": "Spanje"
+      },
+      "per": {
+        "official": "پادشاهی اسپانیا",
+        "common": "اسپانیا"
+      },
+      "pol": {
+        "official": "Królestwo Hiszpanii ",
+        "common": "Hiszpania"
+      },
+      "por": {
+        "official": "Reino de Espanha",
+        "common": "Espanha"
+      },
+      "rus": {
+        "official": "Королевство Испания",
+        "common": "Испания"
+      },
+      "slk": {
+        "official": "Španielske kráľovstvo",
+        "common": "Španielsko"
+      },
+      "spa": {
+        "official": "Reino de España",
+        "common": "España"
+      },
+      "swe": {
+        "official": "Konungariket Spanien",
+        "common": "Spanien"
+      },
+      "tur": {
+        "official": "İspanya Krallığı",
+        "common": "İspanya"
+      },
+      "urd": {
+        "official": "مملکتِ ہسپانیہ",
+        "common": "ہسپانیہ"
+      },
+      "zho": {
+        "official": "西班牙王国",
+        "common": "西班牙"
+      }
+    },
+    "latlng": [
+      40.0,
+      -4.0
+    ],
+    "landlocked": false,
+    "borders": [
+      "AND",
+      "FRA",
+      "GIB",
+      "PRT",
+      "MAR"
+    ],
+    "area": 505992.0,
+    "demonyms": {
+      "eng": {
+        "f": "Spanish",
+        "m": "Spanish"
+      },
+      "fra": {
+        "f": "Espagnole",
+        "m": "Espagnol"
+      }
+    },
+    "flag": "🇪🇸",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/138JaXW8EZzRVitY9",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/1311341"
+    },
+    "population": 47351567,
+    "gini": {
+      "2018": 34.7
+    },
+    "fifa": "ESP",
+    "car": {
+      "signs": [
+        "E"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "continents": [
+      "Europe"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/es.png",
+      "svg": "https://flagcdn.com/es.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/es.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/es.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        40.4,
+        -3.68
+      ]
+    },
+    "postalCode": {
+      "format": "#####",
+      "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+      "common": "Cook Islands",
+      "official": "Cook Islands",
+      "nativeName": {
+        "eng": {
+          "official": "Cook Islands",
+          "common": "Cook Islands"
+        },
+        "rar": {
+          "official": "Kūki 'Āirani",
+          "common": "Kūki 'Āirani"
+        }
+      }
+    },
+    "tld": [
+      ".ck"
+    ],
+    "cca2": "CK",
+    "ccn3": "184",
+    "cca3": "COK",
+    "cioc": "COK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+      "CKD": {
+        "name": "Cook Islands dollar",
+        "symbol": "$"
+      },
+      "NZD": {
+        "name": "New Zealand dollar",
+        "symbol": "$"
+      }
+    },
+    "idd": {
+      "root": "+6",
+      "suffixes": [
+        "82"
+      ]
+    },
+    "capital": [
+      "Avarua"
+    ],
+    "altSpellings": [
+      "CK",
+      "Kūki 'Āirani"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "rar": "Cook Islands Māori"
+    },
+    "translations": {
+      "ara": {
+        "official": "جزر كوك",
+        "common": "جزر كوك"
+      },
+      "bre": {
+        "official": "Inizi Cook",
+        "common": "Inizi Cook"
+      },
+      "ces": {
+        "official": "Cookovy ostrovy",
+        "common": "Cookovy ostrovy"
+      },
+      "cym": {
+        "official": "Ynysoedd Cook",
+        "common": "Ynysoedd Cook"
+      },
+      "deu": {
+        "official": "Cookinseln",
+        "common": "Cookinseln"
+      },
+      "est": {
+        "official": "Cooki saared",
+        "common": "Cooki saared"
+      },
+      "fin": {
+        "official": "Cookinsaaret",
+        "common": "Cookinsaaret"
+      },
+      "fra": {
+        "official": "Îles Cook",
+        "common": "Îles Cook"
+      },
+      "hrv": {
+        "official": "Cook Islands",
+        "common": "Cookovo Otočje"
+      },
+      "hun": {
+        "official": "Cook-szigetek",
+        "common": "Cook-szigetek"
+      },
+      "ita": {
+        "official": "Isole Cook",
+        "common": "Isole Cook"
+      },
+      "jpn": {
+        "official": "クック諸島",
+        "common": "クック諸島"
+      },
+      "kor": {
+        "official": "쿡 제도",
+        "common": "쿡 제도"
+      },
+      "nld": {
+        "official": "Cook eilanden",
+        "common": "Cookeilanden"
+      },
+      "per": {
+        "official": "جزایر کوک",
+        "common": "جزایر کوک"
+      },
+      "pol": {
+        "official": "Wyspy Cooka",
+        "common": "Wyspy Cooka"
+      },
+      "por": {
+        "official": "Ilhas Cook",
+        "common": "Ilhas Cook"
+      },
+      "rus": {
+        "official": "острова Кука",
+        "common": "Острова Кука"
+      },
+      "slk": {
+        "official": "Cookove ostrovy",
+        "common": "Cookove ostrovy"
+      },
+      "spa": {
+        "official": "Islas Cook",
+        "common": "Islas Cook"
+      },
+      "swe": {
+        "official": "Cooköarna",
+        "common": "Cooköarna"
+      },
+      "tur": {
+        "official": "Cook Adaları",
+        "common": "Cook Adaları"
+      },
+      "urd": {
+        "official": "جزائر کک",
+        "common": "جزائر کک"
+      },
+      "zho": {
+        "official": "库克群岛",
+        "common": "库克群岛"
+      }
+    },
+    "latlng": [
+      -21.23333333,
+      -159.76666666
+    ],
+    "landlocked": false,
+    "area": 236.0,
+    "demonyms": {
+      "eng": {
+        "f": "Cook Islander",
+        "m": "Cook Islander"
+      },
+      "fra": {
+        "f": "Cookienne",
+        "m": "Cookien"
+      }
+    },
+    "flag": "🇨🇰",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/2184233"
+    },
+    "population": 18100,
+    "fifa": "COK",
+    "car": {
+      "signs": [
+        "NZ"
+      ],
+      "side": "left"
+    },
+    "timezones": [
+      "UTC-10:00"
+    ],
+    "continents": [
+      "Oceania"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/ck.png",
+      "svg": "https://flagcdn.com/ck.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/ck.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/ck.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        -21.2,
+        -159.77
+      ]
+    }
+  },
+  {
+    "name": {
+      "common": "Mali",
+      "official": "Republic of Mali",
+      "nativeName": {
+        "fra": {
+          "official": "République du Mali",
+          "common": "Mali"
+        }
+      }
+    },
+    "tld": [
+      ".ml"
+    ],
+    "cca2": "ML",
+    "ccn3": "466",
+    "cca3": "MLI",
+    "cioc": "MLI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "XOF": {
+        "name": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    },
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "23"
+      ]
+    },
+    "capital": [
+      "Bamako"
+    ],
+    "altSpellings": [
+      "ML",
+      "Republic of Mali",
+      "République du Mali"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": {
+      "fra": "French"
+    },
+    "translations": {
+      "ara": {
+        "official": "جمهورية مالي",
+        "common": "مالي"
+      },
+      "bre": {
+        "official": "Republik Mali",
+        "common": "Mali"
+      },
+      "ces": {
+        "official": "Republika Mali",
+        "common": "Mali"
+      },
+      "cym": {
+        "official": "Republic of Mali",
+        "common": "Mali"
+      },
+      "deu": {
+        "official": "Republik Mali",
+        "common": "Mali"
+      },
+      "est": {
+        "official": "Mali Vabariik",
+        "common": "Mali"
+      },
+      "fin": {
+        "official": "Malin tasavalta",
+        "common": "Mali"
+      },
+      "fra": {
+        "official": "République du Mali",
+        "common": "Mali"
+      },
+      "hrv": {
+        "official": "Republika Mali",
+        "common": "Mali"
+      },
+      "hun": {
+        "official": "Mali Köztársaság",
+        "common": "Mali"
+      },
+      "ita": {
+        "official": "Repubblica del Mali",
+        "common": "Mali"
+      },
+      "jpn": {
+        "official": "マリ共和国",
+        "common": "マリ"
+      },
+      "kor": {
+        "official": "말리 공화국",
+        "common": "말리"
+      },
+      "nld": {
+        "official": "Republiek Mali",
+        "common": "Mali"
+      },
+      "per": {
+        "official": "جمهوری مالی",
+        "common": "مالی"
+      },
+      "pol": {
+        "official": "Republika Mali",
+        "common": "Mali"
+      },
+      "por": {
+        "official": "República do Mali",
+        "common": "Mali"
+      },
+      "rus": {
+        "official": "Республика Мали",
+        "common": "Мали"
+      },
+      "slk": {
+        "official": "Malijská republika",
+        "common": "Mali"
+      },
+      "spa": {
+        "official": "República de Malí",
+        "common": "Mali"
+      },
+      "swe": {
+        "official": "Republiken Mali",
+        "common": "Mali"
+      },
+      "tur": {
+        "official": "Mali Cumhuriyeti",
+        "common": "Mali"
+      },
+      "urd": {
+        "official": "جمہوریہ مالی",
+        "common": "مالی"
+      },
+      "zho": {
+        "official": "马里共和国",
+        "common": "马里"
+      }
+    },
+    "latlng": [
+      17.0,
+      -4.0
+    ],
+    "landlocked": true,
+    "borders": [
+      "DZA",
+      "BFA",
+      "GIN",
+      "CIV",
+      "MRT",
+      "NER",
+      "SEN"
+    ],
+    "area": 1240192.0,
+    "demonyms": {
+      "eng": {
+        "f": "Malian",
+        "m": "Malian"
+      },
+      "fra": {
+        "f": "Malienne",
+        "m": "Malien"
+      }
+    },
+    "flag": "🇲🇱",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/u9mYJkCB19wyuzh27",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/192785"
+    },
+    "population": 20250834,
+    "gini": {
+      "2009": 33.0
+    },
+    "fifa": "MLI",
+    "car": {
+      "signs": [
+        "RMM"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC"
+    ],
+    "continents": [
+      "Africa"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/ml.png",
+      "svg": "https://flagcdn.com/ml.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/ml.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/ml.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        12.65,
+        -8.0
+      ]
+    }
   }
 ]
