@@ -6,10 +6,11 @@ class LearningResourcesSerializer
         type: "learning_resource",
         attributes: {
           country: country,
-          video: {
-            title: youtube,
-            youtube_video_id: youtube,
-          },
+          video:
+              {
+              title: youtube.first.title,
+              youtube_video_id: youtube.first.youtube_video_id,
+              },
           images: unsplash.map do |image|
             {
             alt_tag: image.alt_tag,
