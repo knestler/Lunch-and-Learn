@@ -14,6 +14,7 @@ RSpec.describe UnsplashService do
         expect(response[:results][0][:urls][:raw]).to be_a String
         expect(response[:results][0][:urls][:raw]).to eq("https://images.unsplash.com/photo-1610974046321-d346b59735b3?ixid=MnwzOTk4MzB8MHwxfHNlYXJjaHwxfHxMYW9zfGVufDB8fHx8MTY3MzkwODQzOA&ixlib=rb-4.0.3")
         expect(response.count).to be < 11
+      VCR.eject_cassette
       end
     end
   end
