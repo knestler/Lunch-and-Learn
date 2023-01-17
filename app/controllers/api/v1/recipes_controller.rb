@@ -1,7 +1,7 @@
 class Api::V1::RecipesController < ApplicationController
   def index
     if params[:country].nil?
-      country = CountryFacade.generate_country
+      country = CountryFacade.country_name
     else 
       country = params[:country]
     end

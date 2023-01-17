@@ -19,7 +19,7 @@ RSpec.describe 'Recipes API' do
       expect(recipes[:data][0][:attributes]).to_not have_key(:yeild)
     end
 
-    it 'returns the recipes and following info' do
+    it 'returns the empty data array for unidentified country' do
       get '/api/v1/recipes', params: {country: "Kyrgyzstan"}
       expect(response).to be_successful
       
@@ -27,6 +27,16 @@ RSpec.describe 'Recipes API' do
       expect(recipes).to be_a Hash
       expect(recipes).to have_key(:data)
       expect(recipes[:data]).to eq([])
+    end
+
+    it 'returns recipes from randomly generated country' do
+      get '/api/v1/recipes', params: {country: nil}
+      expect(response).to be_successful
+      
+      recipes = JSON.parse(response.body, symbolize_names: true)
+      expect(recipes).to be_a Hash
+      expect(recipes).to have_key(:data)
+      expect(recipes[:data]).to_not be_empty
     end
   end
 end
