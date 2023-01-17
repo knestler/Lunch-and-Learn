@@ -3,7 +3,7 @@ class AirQuality
               :lon,
               :aqi,
               :dt,
-              :readable_aqi,
+              :readable_aqi
 
   def initialize(coords, aqi_dt)
     @lat = coords[:lat]
