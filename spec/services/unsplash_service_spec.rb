@@ -12,7 +12,7 @@ RSpec.describe UnsplashService do
         expect(response[:results][0][:urls]).to be_a Hash
         expect(response[:results][0][:urls]).to have_key(:raw)
         expect(response[:results][0][:urls][:raw]).to be_a String
-        expect(response[:results][0][:urls][:raw]).to eq("https://images.unsplash.com/photo-1610974046321-d346b59735b3?ixid=MnwzOTk4MzB8MHwxfHNlYXJjaHwxfHxMYW9zfGVufDB8fHx8MTY3MzkwODQzOA&ixlib=rb-4.0.3")
+        expect(response[:results][0][:urls][:raw]).to eq("https://images.unsplash.com/photo-1606064195579-a48c728cec35?ixid=MnwzOTk4MzB8MHwxfHNlYXJjaHwxfHxMYW9zfGVufDB8fHx8MTY3Mzk3NDQ2OQ&ixlib=rb-4.0.3")
         expect(response.count).to be < 11
       VCR.eject_cassette
       end

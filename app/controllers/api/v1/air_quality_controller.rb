@@ -8,7 +8,7 @@ class Api::V1::AirQualityController < ApplicationController
     
     air_quality = AirQualityFacade.quality(country)
     ### get info from facade above ==> out by serializer below
-    render json: AirQualitySerializer.quality_finder(new_recipes)
+    render json: AirQualitySerializer.quality_finder(country)
   end
 
 

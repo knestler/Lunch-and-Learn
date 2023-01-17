@@ -1,13 +1,13 @@
 class AirQualitySerializer
-  def self.quality_finder(quality)
+  def self.quality_finder(captial)
     {
       data: {
         id: 'null',
         type: "air_quality",
         attributes: {
-            aqi: quality.aqi,# 5
-            datetime: quality.date_time, #1673971849
-            readable_aqi: quality.aqi_readable #"Very Poor"
+            aqi: capital.aqi,# 5
+            datetime: capital.date_time, #1673971849
+            readable_aqi: capital.aqi_readable #"Very Poor"
         }
       }
     }
