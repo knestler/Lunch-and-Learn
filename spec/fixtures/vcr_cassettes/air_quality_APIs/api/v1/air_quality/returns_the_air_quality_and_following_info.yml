@@ -1,0 +1,325 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Kenya
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Jan 2023 17:51:30 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2852'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6eyJjb21tb24iOiJLZW55YSIsIm9mZmljaWFsIjoiUmVwdWJsaWMgb2YgS2VueWEiLCJuYXRpdmVOYW1lIjp7ImVuZyI6eyJvZmZpY2lhbCI6IlJlcHVibGljIG9mIEtlbnlhIiwiY29tbW9uIjoiS2VueWEifSwic3dhIjp7Im9mZmljaWFsIjoiUmVwdWJsaWMgb2YgS2VueWEiLCJjb21tb24iOiJLZW55YSJ9fX0sInRsZCI6WyIua2UiXSwiY2NhMiI6IktFIiwiY2NuMyI6IjQwNCIsImNjYTMiOiJLRU4iLCJjaW9jIjoiS0VOIiwiaW5kZXBlbmRlbnQiOnRydWUsInN0YXR1cyI6Im9mZmljaWFsbHktYXNzaWduZWQiLCJ1bk1lbWJlciI6dHJ1ZSwiY3VycmVuY2llcyI6eyJLRVMiOnsibmFtZSI6IktlbnlhbiBzaGlsbGluZyIsInN5bWJvbCI6IlNoIn19LCJpZGQiOnsicm9vdCI6IisyIiwic3VmZml4ZXMiOlsiNTQiXX0sImNhcGl0YWwiOlsiTmFpcm9iaSJdLCJhbHRTcGVsbGluZ3MiOlsiS0UiLCJSZXB1YmxpYyBvZiBLZW55YSIsIkphbWh1cmkgeWEgS2VueWEiXSwicmVnaW9uIjoiQWZyaWNhIiwic3VicmVnaW9uIjoiRWFzdGVybiBBZnJpY2EiLCJsYW5ndWFnZXMiOnsiZW5nIjoiRW5nbGlzaCIsInN3YSI6IlN3YWhpbGkifSwidHJhbnNsYXRpb25zIjp7ImFyYSI6eyJvZmZpY2lhbCI6Itis2YXZh9mI2LHZitipINmD2YrZhtmK2KciLCJjb21tb24iOiLZg9mK2YbZitinIn0sImJyZSI6eyJvZmZpY2lhbCI6IlJlcHVibGlrIEtlbnlhIiwiY29tbW9uIjoiS2VueWEifSwiY2VzIjp7Im9mZmljaWFsIjoiS2XFiHNrw6EgcmVwdWJsaWthIiwiY29tbW9uIjoiS2XFiGEifSwiY3ltIjp7Im9mZmljaWFsIjoiUmVwdWJsaWMgb2YgS2VueWEiLCJjb21tb24iOiJLZW55YSJ9LCJkZXUiOnsib2ZmaWNpYWwiOiJSZXB1YmxpayBLZW5pYSIsImNvbW1vbiI6IktlbmlhIn0sImVzdCI6eyJvZmZpY2lhbCI6IktlZW5pYSBWYWJhcmlpayIsImNvbW1vbiI6IktlZW5pYSJ9LCJmaW4iOnsib2ZmaWNpYWwiOiJLZW5pYW4gdGFzYXZhbHRhIiwiY29tbW9uIjoiS2VuaWEifSwiZnJhIjp7Im9mZmljaWFsIjoiUsOpcHVibGlxdWUgZHUgS2VueWEiLCJjb21tb24iOiJLZW55YSJ9LCJocnYiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2EgS2VuaWphIiwiY29tbW9uIjoiS2VuaWphIn0sImh1biI6eyJvZmZpY2lhbCI6IktlbnlhaSBLw7Z6dMOhcnNhc8OhZyIsImNvbW1vbiI6IktlbnlhIn0sIml0YSI6eyJvZmZpY2lhbCI6IlJlcHViYmxpY2EgZGVsIEtlbnlhIiwiY29tbW9uIjoiS2VueWEifSwianBuIjp7Im9mZmljaWFsIjoi44Kx44OL44Ki5YWx5ZKM5Zu9IiwiY29tbW9uIjoi44Kx44OL44KiIn0sImtvciI6eyJvZmZpY2lhbCI6Iuy8gOuDkCDqs7XtmZTqta0iLCJjb21tb24iOiLsvIDrg5AifSwibmxkIjp7Im9mZmljaWFsIjoiUmVwdWJsaWVrIEtlbmlhIiwiY29tbW9uIjoiS2VuaWEifSwicGVyIjp7Im9mZmljaWFsIjoi2KzZhdmH2YjYsduMINqp2YbbjNinIiwiY29tbW9uIjoi2qnZhtuM2KcifSwicG9sIjp7Im9mZmljaWFsIjoiUmVwdWJsaWthIEtlbmlpIiwiY29tbW9uIjoiS2VuaWEifSwicG9yIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkbyBRdcOpbmlhIiwiY29tbW9uIjoiUXXDqW5pYSJ9LCJydXMiOnsib2ZmaWNpYWwiOiLQoNC10YHQv9GD0LHQu9C40LrQsCDQmtC10L3QuNGPIiwiY29tbW9uIjoi0JrQtdC90LjRjyJ9LCJzbGsiOnsib2ZmaWNpYWwiOiJLZW5za8OhIHJlcHVibGlrYSIsImNvbW1vbiI6IktlxYhhIn0sInNwYSI6eyJvZmZpY2lhbCI6IlJlcMO6YmxpY2EgZGUgS2VueWEiLCJjb21tb24iOiJLZW5pYSJ9LCJzd2UiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2VuIEtlbnlhIiwiY29tbW9uIjoiS2VueWEifSwidHVyIjp7Im9mZmljaWFsIjoiS2VueWEgQ3VtaHVyaXlldGkiLCJjb21tb24iOiJLZW55YSJ9LCJ1cmQiOnsib2ZmaWNpYWwiOiLYrNmF24HZiNix24zbgSDaqduM2YbbjNinIiwiY29tbW9uIjoi2qnbjNmG24zYpyJ9LCJ6aG8iOnsib2ZmaWNpYWwiOiLogq/lsLzkuprlhbHlkozlm70iLCJjb21tb24iOiLogq/lsLzkupoifX0sImxhdGxuZyI6WzEuMCwzOC4wXSwibGFuZGxvY2tlZCI6ZmFsc2UsImJvcmRlcnMiOlsiRVRIIiwiU09NIiwiU1NEIiwiVFpBIiwiVUdBIl0sImFyZWEiOjU4MDM2Ny4wLCJkZW1vbnltcyI6eyJlbmciOnsiZiI6IktlbnlhbiIsIm0iOiJLZW55YW4ifSwiZnJhIjp7ImYiOiJLw6lueWFuZSIsIm0iOiJLw6lueWFuIn19LCJmbGFnIjoiXHVEODNDXHVEREYwXHVEODNDXHVEREVBIiwibWFwcyI6eyJnb29nbGVNYXBzIjoiaHR0cHM6Ly9nb28uZ2wvbWFwcy9OaTlNN3djQ3hmOGJKSExYOCIsIm9wZW5TdHJlZXRNYXBzIjoiaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvcmVsYXRpb24vMTkyNzk4In0sInBvcHVsYXRpb24iOjUzNzcxMzAwLCJnaW5pIjp7IjIwMTUiOjQwLjh9LCJmaWZhIjoiS0VOIiwiY2FyIjp7InNpZ25zIjpbIkVBSyJdLCJzaWRlIjoibGVmdCJ9LCJ0aW1lem9uZXMiOlsiVVRDKzAzOjAwIl0sImNvbnRpbmVudHMiOlsiQWZyaWNhIl0sImZsYWdzIjp7InBuZyI6Imh0dHBzOi8vZmxhZ2Nkbi5jb20vdzMyMC9rZS5wbmciLCJzdmciOiJodHRwczovL2ZsYWdjZG4uY29tL2tlLnN2ZyJ9LCJjb2F0T2ZBcm1zIjp7InBuZyI6Imh0dHBzOi8vbWFpbmZhY3RzLmNvbS9tZWRpYS9pbWFnZXMvY29hdHNfb2ZfYXJtcy9rZS5wbmciLCJzdmciOiJodHRwczovL21haW5mYWN0cy5jb20vbWVkaWEvaW1hZ2VzL2NvYXRzX29mX2FybXMva2Uuc3ZnIn0sInN0YXJ0T2ZXZWVrIjoibW9uZGF5IiwiY2FwaXRhbEluZm8iOnsibGF0bG5nIjpbLTEuMjgsMzYuODJdfSwicG9zdGFsQ29kZSI6eyJmb3JtYXQiOiIjIyMjIyIsInJlZ2V4IjoiXihcXGR7NX0pJCJ9fV0=
+  recorded_at: Tue, 17 Jan 2023 17:51:30 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/air_pollution?appid=52539237b222aa7bfc7ba991720d7ae6&lat=-1.28&lon=36.82
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:51:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '185'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution?lat=-1.28&lon=36.82"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":36.82,"lat":-1.28},"list":[{"main":{"aqi":2},"components":{"co":640.87,"no":0,"no2":7.37,"o3":30.76,"so2":3.19,"pm2_5":17.65,"pm10":41.01,"nh3":13.43},"dt":1673977631}]}'
+  recorded_at: Tue, 17 Jan 2023 17:51:30 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Peru
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Jan 2023 18:00:22 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2892'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6eyJjb21tb24iOiJQZXJ1Iiwib2ZmaWNpYWwiOiJSZXB1YmxpYyBvZiBQZXJ1IiwibmF0aXZlTmFtZSI6eyJheW0iOnsib2ZmaWNpYWwiOiJQaXJ1dyBTdXl1IiwiY29tbW9uIjoiUGlydXcifSwicXVlIjp7Im9mZmljaWFsIjoiUGlydXcgUmlwdXdsaWthIiwiY29tbW9uIjoiUGlydXcifSwic3BhIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkZWwgUGVyw7oiLCJjb21tb24iOiJQZXLDuiJ9fX0sInRsZCI6WyIucGUiXSwiY2NhMiI6IlBFIiwiY2NuMyI6IjYwNCIsImNjYTMiOiJQRVIiLCJjaW9jIjoiUEVSIiwiaW5kZXBlbmRlbnQiOnRydWUsInN0YXR1cyI6Im9mZmljaWFsbHktYXNzaWduZWQiLCJ1bk1lbWJlciI6dHJ1ZSwiY3VycmVuY2llcyI6eyJQRU4iOnsibmFtZSI6IlBlcnV2aWFuIHNvbCIsInN5bWJvbCI6IlMvICJ9fSwiaWRkIjp7InJvb3QiOiIrNSIsInN1ZmZpeGVzIjpbIjEiXX0sImNhcGl0YWwiOlsiTGltYSJdLCJhbHRTcGVsbGluZ3MiOlsiUEUiLCJSZXB1YmxpYyBvZiBQZXJ1IiwiUmVww7pibGljYSBkZWwgUGVyw7oiXSwicmVnaW9uIjoiQW1lcmljYXMiLCJzdWJyZWdpb24iOiJTb3V0aCBBbWVyaWNhIiwibGFuZ3VhZ2VzIjp7ImF5bSI6IkF5bWFyYSIsInF1ZSI6IlF1ZWNodWEiLCJzcGEiOiJTcGFuaXNoIn0sInRyYW5zbGF0aW9ucyI6eyJhcmEiOnsib2ZmaWNpYWwiOiLYrNmF2YfZiNix2YrYqSDYqNmK2LHZiCIsImNvbW1vbiI6Itio2YrYsdmIIn0sImJyZSI6eyJvZmZpY2lhbCI6IlJlcHVibGlrIFBlcm91IiwiY29tbW9uIjoiUGVyb3UifSwiY2VzIjp7Im9mZmljaWFsIjoiUGVydcOhbnNrw6EgcmVwdWJsaWthIiwiY29tbW9uIjoiUGVydSJ9LCJjeW0iOnsib2ZmaWNpYWwiOiJSZXB1YmxpYyBvZiBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJkZXUiOnsib2ZmaWNpYWwiOiJSZXB1YmxpayBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJlc3QiOnsib2ZmaWNpYWwiOiJQZXJ1dSBWYWJhcmlpayIsImNvbW1vbiI6IlBlcnV1In0sImZpbiI6eyJvZmZpY2lhbCI6IlBlcnVuIHRhc2F2YWx0YSIsImNvbW1vbiI6IlBlcnUifSwiZnJhIjp7Im9mZmljaWFsIjoiUsOpcHVibGlxdWUgZHUgUMOpcm91IiwiY29tbW9uIjoiUMOpcm91In0sImhydiI6eyJvZmZpY2lhbCI6IlJlcHVibGlrYSBQZXJ1IiwiY29tbW9uIjoiUGVydSJ9LCJodW4iOnsib2ZmaWNpYWwiOiJQZXJ1aSBLw7Z6dMOhcnNhc8OhZyIsImNvbW1vbiI6IlBlcnUifSwiaXRhIjp7Im9mZmljaWFsIjoiUmVwdWJibGljYSBkZWwgUGVyw7kiLCJjb21tb24iOiJQZXLDuSJ9LCJqcG4iOnsib2ZmaWNpYWwiOiLjg5rjg6vjg7zlhbHlkozlm70iLCJjb21tb24iOiLjg5rjg6vjg7wifSwia29yIjp7Im9mZmljaWFsIjoi7Y6Y66OoIOqzte2ZlOq1rSIsImNvbW1vbiI6Iu2OmOujqCJ9LCJubGQiOnsib2ZmaWNpYWwiOiJSZXB1YmxpZWsgUGVydSIsImNvbW1vbiI6IlBlcnUifSwicGVyIjp7Im9mZmljaWFsIjoi2KzZhdmH2YjYsduMINm+2LHZiCIsImNvbW1vbiI6Itm+2LHZiCJ9LCJwb2wiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2EgUGVydSIsImNvbW1vbiI6IlBlcnUifSwicG9yIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkbyBQZXJ1IiwiY29tbW9uIjoiUGVyw7oifSwicnVzIjp7Im9mZmljaWFsIjoi0KDQtdGB0L/Rg9Cx0LvQuNC60LAg0J/QtdGA0YMiLCJjb21tb24iOiLQn9C10YDRgyJ9LCJzbGsiOnsib2ZmaWNpYWwiOiJQZXJ1w6Fuc2thIHJlcHVibGlrYSIsImNvbW1vbiI6IlBlcnUifSwic3BhIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBkZSBQZXLDuiIsImNvbW1vbiI6IlBlcsO6In0sInN3ZSI6eyJvZmZpY2lhbCI6IlJlcHVibGlrZW4gUGVydSIsImNvbW1vbiI6IlBlcnUifSwidHVyIjp7Im9mZmljaWFsIjoiUGVydSBDdW1odXJpeWV0aSIsImNvbW1vbiI6IlBlcnUifSwidXJkIjp7Im9mZmljaWFsIjoi2KzZhduB2YjYsduM24Eg2b7bjNix2YgiLCJjb21tb24iOiLZvtuM2LHZiCJ9LCJ6aG8iOnsib2ZmaWNpYWwiOiLnp5jpsoHlhbHlkozlm70iLCJjb21tb24iOiLnp5jpsoEifX0sImxhdGxuZyI6Wy0xMC4wLC03Ni4wXSwibGFuZGxvY2tlZCI6ZmFsc2UsImJvcmRlcnMiOlsiQk9MIiwiQlJBIiwiQ0hMIiwiQ09MIiwiRUNVIl0sImFyZWEiOjEyODUyMTYuMCwiZGVtb255bXMiOnsiZW5nIjp7ImYiOiJQZXJ1dmlhbiIsIm0iOiJQZXJ1dmlhbiJ9LCJmcmEiOnsiZiI6IlDDqXJ1dmllbm5lIiwibSI6IlDDqXJ1dmllbiJ9fSwiZmxhZyI6Ilx1RDgzQ1x1RERGNVx1RDgzQ1x1RERFQSIsIm1hcHMiOnsiZ29vZ2xlTWFwcyI6Imh0dHBzOi8vZ29vLmdsL21hcHMvdURXRVVhWE5jWlRuZzFmUDYiLCJvcGVuU3RyZWV0TWFwcyI6Imh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnL3JlbGF0aW9uLzI4ODI0NyJ9LCJwb3B1bGF0aW9uIjozMjk3MTg0NiwiZ2luaSI6eyIyMDE5Ijo0MS41fSwiZmlmYSI6IlBFUiIsImNhciI6eyJzaWducyI6WyJQRSJdLCJzaWRlIjoicmlnaHQifSwidGltZXpvbmVzIjpbIlVUQy0wNTowMCJdLCJjb250aW5lbnRzIjpbIlNvdXRoIEFtZXJpY2EiXSwiZmxhZ3MiOnsicG5nIjoiaHR0cHM6Ly9mbGFnY2RuLmNvbS93MzIwL3BlLnBuZyIsInN2ZyI6Imh0dHBzOi8vZmxhZ2Nkbi5jb20vcGUuc3ZnIn0sImNvYXRPZkFybXMiOnsicG5nIjoiaHR0cHM6Ly9tYWluZmFjdHMuY29tL21lZGlhL2ltYWdlcy9jb2F0c19vZl9hcm1zL3BlLnBuZyIsInN2ZyI6Imh0dHBzOi8vbWFpbmZhY3RzLmNvbS9tZWRpYS9pbWFnZXMvY29hdHNfb2ZfYXJtcy9wZS5zdmcifSwic3RhcnRPZldlZWsiOiJtb25kYXkiLCJjYXBpdGFsSW5mbyI6eyJsYXRsbmciOlstMTIuMDUsLTc3LjA1XX0sInBvc3RhbENvZGUiOnsiZm9ybWF0IjoiIyMjIyMiLCJyZWdleCI6Il4oXFxkezV9KSQifX1d
+  recorded_at: Tue, 17 Jan 2023 18:00:22 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/air_pollution?appid=52539237b222aa7bfc7ba991720d7ae6&lat=-12.05&lon=-77.05
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 18:00:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution?lat=-12.05&lon=-77.05"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":-77.05,"lat":-12.05},"list":[{"main":{"aqi":1},"components":{"co":257.02,"no":2.71,"no2":5.14,"o3":49.35,"so2":4.35,"pm2_5":7.41,"pm10":19.65,"nh3":3.52},"dt":1673978422}]}'
+  recorded_at: Tue, 17 Jan 2023 18:00:22 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/France
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Jan 2023 18:00:22 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3076'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6eyJjb21tb24iOiJGcmFuY2UiLCJvZmZpY2lhbCI6IkZyZW5jaCBSZXB1YmxpYyIsIm5hdGl2ZU5hbWUiOnsiZnJhIjp7Im9mZmljaWFsIjoiUsOpcHVibGlxdWUgZnJhbsOnYWlzZSIsImNvbW1vbiI6IkZyYW5jZSJ9fX0sInRsZCI6WyIuZnIiXSwiY2NhMiI6IkZSIiwiY2NuMyI6IjI1MCIsImNjYTMiOiJGUkEiLCJjaW9jIjoiRlJBIiwiaW5kZXBlbmRlbnQiOnRydWUsInN0YXR1cyI6Im9mZmljaWFsbHktYXNzaWduZWQiLCJ1bk1lbWJlciI6dHJ1ZSwiY3VycmVuY2llcyI6eyJFVVIiOnsibmFtZSI6IkV1cm8iLCJzeW1ib2wiOiLigqwifX0sImlkZCI6eyJyb290IjoiKzMiLCJzdWZmaXhlcyI6WyIzIl19LCJjYXBpdGFsIjpbIlBhcmlzIl0sImFsdFNwZWxsaW5ncyI6WyJGUiIsIkZyZW5jaCBSZXB1YmxpYyIsIlLDqXB1YmxpcXVlIGZyYW7Dp2Fpc2UiXSwicmVnaW9uIjoiRXVyb3BlIiwic3VicmVnaW9uIjoiV2VzdGVybiBFdXJvcGUiLCJsYW5ndWFnZXMiOnsiZnJhIjoiRnJlbmNoIn0sInRyYW5zbGF0aW9ucyI6eyJhcmEiOnsib2ZmaWNpYWwiOiLYp9mE2KzZhdmH2YjYsdmK2Kkg2KfZhNmB2LHZhtiz2YrYqSIsImNvbW1vbiI6ItmB2LHZhtiz2KcifSwiYnJlIjp7Im9mZmljaWFsIjoiUmVwdWJsaWsgRnJhw7FzIiwiY29tbW9uIjoiRnJhw7FzIn0sImNlcyI6eyJvZmZpY2lhbCI6IkZyYW5jb3V6c2vDoSByZXB1Ymxpa2EiLCJjb21tb24iOiJGcmFuY2llIn0sImN5bSI6eyJvZmZpY2lhbCI6IkZyZW5jaCBSZXB1YmxpYyIsImNvbW1vbiI6IkZyYW5jZSJ9LCJkZXUiOnsib2ZmaWNpYWwiOiJGcmFuesO2c2lzY2hlIFJlcHVibGlrIiwiY29tbW9uIjoiRnJhbmtyZWljaCJ9LCJlc3QiOnsib2ZmaWNpYWwiOiJQcmFudHN1c2UgVmFiYXJpaWsiLCJjb21tb24iOiJQcmFudHN1c21hYSJ9LCJmaW4iOnsib2ZmaWNpYWwiOiJSYW5za2FuIHRhc2F2YWx0YSIsImNvbW1vbiI6IlJhbnNrYSJ9LCJmcmEiOnsib2ZmaWNpYWwiOiJSw6lwdWJsaXF1ZSBmcmFuw6dhaXNlIiwiY29tbW9uIjoiRnJhbmNlIn0sImhydiI6eyJvZmZpY2lhbCI6IkZyYW5jdXNrYSBSZXB1Ymxpa2EiLCJjb21tb24iOiJGcmFuY3Vza2EifSwiaHVuIjp7Im9mZmljaWFsIjoiRnJhbmNpYSBLw7Z6dMOhcnNhc8OhZyIsImNvbW1vbiI6IkZyYW5jaWFvcnN6w6FnIn0sIml0YSI6eyJvZmZpY2lhbCI6IlJlcHViYmxpY2EgZnJhbmNlc2UiLCJjb21tb24iOiJGcmFuY2lhIn0sImpwbiI6eyJvZmZpY2lhbCI6IuODleODqeODs+OCueWFseWSjOWbvSIsImNvbW1vbiI6IuODleODqeODs+OCuSJ9LCJrb3IiOnsib2ZmaWNpYWwiOiLtlITrnpHsiqQg6rO17ZmU6rWtIiwiY29tbW9uIjoi7ZSE656R7IqkIn0sIm5sZCI6eyJvZmZpY2lhbCI6IkZyYW5zZSBSZXB1YmxpZWsiLCJjb21tb24iOiJGcmFua3JpamsifSwicGVyIjp7Im9mZmljaWFsIjoi2KzZhdmH2YjYsduMINmB2LHYp9mG2LPZhyIsImNvbW1vbiI6ItmB2LHYp9mG2LPZhyJ9LCJwb2wiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2EgRnJhbmN1c2thIiwiY29tbW9uIjoiRnJhbmNqYSJ9LCJwb3IiOnsib2ZmaWNpYWwiOiJSZXDDumJsaWNhIEZyYW5jZXNhIiwiY29tbW9uIjoiRnJhbsOnYSJ9LCJydXMiOnsib2ZmaWNpYWwiOiLQpNGA0LDQvdGG0YPQt9GB0LrQsNGPINCg0LXRgdC/0YPQsdC70LjQutCwIiwiY29tbW9uIjoi0KTRgNCw0L3RhtC40Y8ifSwic2xrIjp7Im9mZmljaWFsIjoiRnJhbmPDunpza2EgcmVwdWJsaWthIiwiY29tbW9uIjoiRnJhbmPDunpza28ifSwic3BhIjp7Im9mZmljaWFsIjoiUmVww7pibGljYSBmcmFuY8OpcyIsImNvbW1vbiI6IkZyYW5jaWEifSwic3dlIjp7Im9mZmljaWFsIjoiUmVwdWJsaWtlbiBGcmFua3Jpa2UiLCJjb21tb24iOiJGcmFua3Jpa2UifSwidHVyIjp7Im9mZmljaWFsIjoiRnJhbnNhIEN1bWh1cml5ZXRpIiwiY29tbW9uIjoiRnJhbnNhIn0sInVyZCI6eyJvZmZpY2lhbCI6Itis2YXbgdmI2LHbjNuBINmB2LHYp9mG2LMiLCJjb21tb24iOiLZgdix2KfZhtizIn0sInpobyI6eyJvZmZpY2lhbCI6IuazleWFsOilv+WFseWSjOWbvSIsImNvbW1vbiI6IuazleWbvSJ9fSwibGF0bG5nIjpbNDYuMCwyLjBdLCJsYW5kbG9ja2VkIjpmYWxzZSwiYm9yZGVycyI6WyJBTkQiLCJCRUwiLCJERVUiLCJJVEEiLCJMVVgiLCJNQ08iLCJFU1AiLCJDSEUiXSwiYXJlYSI6NTUxNjk1LjAsImRlbW9ueW1zIjp7ImVuZyI6eyJmIjoiRnJlbmNoIiwibSI6IkZyZW5jaCJ9LCJmcmEiOnsiZiI6IkZyYW7Dp2Fpc2UiLCJtIjoiRnJhbsOnYWlzIn19LCJmbGFnIjoiXHVEODNDXHVEREVCXHVEODNDXHVEREY3IiwibWFwcyI6eyJnb29nbGVNYXBzIjoiaHR0cHM6Ly9nb28uZ2wvbWFwcy9nN1F4eFNGc1d5VFBLdXpkNyIsIm9wZW5TdHJlZXRNYXBzIjoiaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvcmVsYXRpb24vMTQwMzkxNiJ9LCJwb3B1bGF0aW9uIjo2NzM5MTU4MiwiZ2luaSI6eyIyMDE4IjozMi40fSwiZmlmYSI6IkZSQSIsImNhciI6eyJzaWducyI6WyJGIl0sInNpZGUiOiJyaWdodCJ9LCJ0aW1lem9uZXMiOlsiVVRDLTEwOjAwIiwiVVRDLTA5OjMwIiwiVVRDLTA5OjAwIiwiVVRDLTA4OjAwIiwiVVRDLTA0OjAwIiwiVVRDLTAzOjAwIiwiVVRDKzAxOjAwIiwiVVRDKzAyOjAwIiwiVVRDKzAzOjAwIiwiVVRDKzA0OjAwIiwiVVRDKzA1OjAwIiwiVVRDKzEwOjAwIiwiVVRDKzExOjAwIiwiVVRDKzEyOjAwIl0sImNvbnRpbmVudHMiOlsiRXVyb3BlIl0sImZsYWdzIjp7InBuZyI6Imh0dHBzOi8vZmxhZ2Nkbi5jb20vdzMyMC9mci5wbmciLCJzdmciOiJodHRwczovL2ZsYWdjZG4uY29tL2ZyLnN2ZyJ9LCJjb2F0T2ZBcm1zIjp7InBuZyI6Imh0dHBzOi8vbWFpbmZhY3RzLmNvbS9tZWRpYS9pbWFnZXMvY29hdHNfb2ZfYXJtcy9mci5wbmciLCJzdmciOiJodHRwczovL21haW5mYWN0cy5jb20vbWVkaWEvaW1hZ2VzL2NvYXRzX29mX2FybXMvZnIuc3ZnIn0sInN0YXJ0T2ZXZWVrIjoibW9uZGF5IiwiY2FwaXRhbEluZm8iOnsibGF0bG5nIjpbNDguODcsMi4zM119LCJwb3N0YWxDb2RlIjp7ImZvcm1hdCI6IiMjIyMjIiwicmVnZXgiOiJeKFxcZHs1fSkkIn19XQ==
+  recorded_at: Tue, 17 Jan 2023 18:00:22 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/air_pollution?appid=52539237b222aa7bfc7ba991720d7ae6&lat=48.87&lon=2.33
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 18:00:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '187'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution?lat=48.87&lon=2.33"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":2.33,"lat":48.87},"list":[{"main":{"aqi":3},"components":{"co":807.76,"no":23.25,"no2":63.06,"o3":0.02,"so2":13.23,"pm2_5":33.37,"pm10":37.97,"nh3":3.1},"dt":1673978423}]}'
+  recorded_at: Tue, 17 Jan 2023 18:00:23 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Jan 2023 18:01:20 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '6727'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6eyJjb21tb24iOiJJbmRpYSIsIm9mZmljaWFsIjoiUmVwdWJsaWMgb2YgSW5kaWEiLCJuYXRpdmVOYW1lIjp7ImVuZyI6eyJvZmZpY2lhbCI6IlJlcHVibGljIG9mIEluZGlhIiwiY29tbW9uIjoiSW5kaWEifSwiaGluIjp7Im9mZmljaWFsIjoi4KSt4KS+4KSw4KSkIOCkl+Cko+CksOCkvuCknOCljeCkryIsImNvbW1vbiI6IuCkreCkvuCksOCkpCJ9LCJ0YW0iOnsib2ZmaWNpYWwiOiLgrofgrqjgr43grqTgrr/grq/grpXgr40g4K6V4K+B4K6f4K6/4K6v4K6w4K6a4K+BIiwiY29tbW9uIjoi4K6H4K6o4K+N4K6k4K6/4K6v4K6+In19fSwidGxkIjpbIi5pbiJdLCJjY2EyIjoiSU4iLCJjY24zIjoiMzU2IiwiY2NhMyI6IklORCIsImNpb2MiOiJJTkQiLCJpbmRlcGVuZGVudCI6dHJ1ZSwic3RhdHVzIjoib2ZmaWNpYWxseS1hc3NpZ25lZCIsInVuTWVtYmVyIjp0cnVlLCJjdXJyZW5jaWVzIjp7IklOUiI6eyJuYW1lIjoiSW5kaWFuIHJ1cGVlIiwic3ltYm9sIjoi4oK5In19LCJpZGQiOnsicm9vdCI6Iis5Iiwic3VmZml4ZXMiOlsiMSJdfSwiY2FwaXRhbCI6WyJOZXcgRGVsaGkiXSwiYWx0U3BlbGxpbmdzIjpbIklOIiwiQmjEgXJhdCIsIlJlcHVibGljIG9mIEluZGlhIiwiQmhhcmF0IEdhbnJhanlhIiwi4K6H4K6o4K+N4K6k4K6/4K6v4K6+Il0sInJlZ2lvbiI6IkFzaWEiLCJzdWJyZWdpb24iOiJTb3V0aGVybiBBc2lhIiwibGFuZ3VhZ2VzIjp7ImVuZyI6IkVuZ2xpc2giLCJoaW4iOiJIaW5kaSIsInRhbSI6IlRhbWlsIn0sInRyYW5zbGF0aW9ucyI6eyJhcmEiOnsib2ZmaWNpYWwiOiLYrNmF2YfZiNix2YrYqSDYp9mE2YfZhtivIiwiY29tbW9uIjoi2KfZhNmH2YbYryJ9LCJicmUiOnsib2ZmaWNpYWwiOiJSZXB1YmxpayBJbmRpYSIsImNvbW1vbiI6IkluZGlhIn0sImNlcyI6eyJvZmZpY2lhbCI6IkluZGlja8OhIHJlcHVibGlrYSIsImNvbW1vbiI6IkluZGllIn0sImN5bSI6eyJvZmZpY2lhbCI6IlJlcHVibGljIG9mIEluZGlhIiwiY29tbW9uIjoiSW5kaWEifSwiZGV1Ijp7Im9mZmljaWFsIjoiUmVwdWJsaWsgSW5kaWVuIiwiY29tbW9uIjoiSW5kaWVuIn0sImVzdCI6eyJvZmZpY2lhbCI6IkluZGlhIFZhYmFyaWlrIiwiY29tbW9uIjoiSW5kaWEifSwiZmluIjp7Im9mZmljaWFsIjoiSW50aWFuIHRhc2F2YWx0YSIsImNvbW1vbiI6IkludGlhIn0sImZyYSI6eyJvZmZpY2lhbCI6IlLDqXB1YmxpcXVlIGRlIGwnSW5kZSIsImNvbW1vbiI6IkluZGUifSwiaHJ2Ijp7Im9mZmljaWFsIjoiUmVwdWJsaWthIEluZGlqYSIsImNvbW1vbiI6IkluZGlqYSJ9LCJodW4iOnsib2ZmaWNpYWwiOiJJbmRpYWkgS8O2enTDoXJzYXPDoWciLCJjb21tb24iOiJJbmRpYSJ9LCJpdGEiOnsib2ZmaWNpYWwiOiJSZXB1YmJsaWNhIGRlbGwnSW5kaWEiLCJjb21tb24iOiJJbmRpYSJ9LCJqcG4iOnsib2ZmaWNpYWwiOiLjgqTjg7Pjg4nlhbHlkozlm70iLCJjb21tb24iOiLjgqTjg7Pjg4kifSwia29yIjp7Im9mZmljaWFsIjoi7J2464+EIOqzte2ZlOq1rSIsImNvbW1vbiI6IuyduOuPhCJ9LCJubGQiOnsib2ZmaWNpYWwiOiJSZXB1YmxpZWsgSW5kaWEiLCJjb21tb24iOiJJbmRpYSJ9LCJwZXIiOnsib2ZmaWNpYWwiOiLYrNmF2YfZiNix24wg2YfZhtiv2YjYs9iq2KfZhiIsImNvbW1vbiI6ItmH2YbYryJ9LCJwb2wiOnsib2ZmaWNpYWwiOiJSZXB1Ymxpa2EgSW5kaWkiLCJjb21tb24iOiJJbmRpZSJ9LCJwb3IiOnsib2ZmaWNpYWwiOiJSZXDDumJsaWNhIGRhIMONbmRpYSIsImNvbW1vbiI6IsONbmRpYSJ9LCJydXMiOnsib2ZmaWNpYWwiOiLQoNC10YHQv9GD0LHQu9C40LrQsCDQmNC90LTQuNGPIiwiY29tbW9uIjoi0JjQvdC00LjRjyJ9LCJzbGsiOnsib2ZmaWNpYWwiOiJJbmRpY2vDoSByZXB1Ymxpa2EiLCJjb21tb24iOiJJbmRpYSJ9LCJzcGEiOnsib2ZmaWNpYWwiOiJSZXDDumJsaWNhIGRlIGxhIEluZGlhIiwiY29tbW9uIjoiSW5kaWEifSwic3dlIjp7Im9mZmljaWFsIjoiUmVwdWJsaWtlbiBJbmRpZW4iLCJjb21tb24iOiJJbmRpZW4ifSwidHVyIjp7Im9mZmljaWFsIjoiSGluZGlzdGFuIEN1bWh1cml5ZXRpIiwiY29tbW9uIjoiSGluZGlzdGFuIn0sInVyZCI6eyJvZmZpY2lhbCI6Itis2YXbgdmI2LHbjNuBINio2r7Yp9ix2KoiLCJjb21tb24iOiLYqNq+2KfYsdiqIn0sInpobyI6eyJvZmZpY2lhbCI6IuWNsOW6puWFseWSjOWbvSIsImNvbW1vbiI6IuWNsOW6piJ9fSwibGF0bG5nIjpbMjAuMCw3Ny4wXSwibGFuZGxvY2tlZCI6ZmFsc2UsImJvcmRlcnMiOlsiQkdEIiwiQlROIiwiTU1SIiwiQ0hOIiwiTlBMIiwiUEFLIl0sImFyZWEiOjMyODc1OTAuMCwiZGVtb255bXMiOnsiZW5nIjp7ImYiOiJJbmRpYW4iLCJtIjoiSW5kaWFuIn0sImZyYSI6eyJmIjoiSW5kaWVubmUiLCJtIjoiSW5kaWVuIn19LCJmbGFnIjoiXHVEODNDXHVEREVFXHVEODNDXHVEREYzIiwibWFwcyI6eyJnb29nbGVNYXBzIjoiaHR0cHM6Ly9nb28uZ2wvbWFwcy9XU2szZkx3RzR2dFBRZXRwNyIsIm9wZW5TdHJlZXRNYXBzIjoiaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvcmVsYXRpb24vMzA0NzE2In0sInBvcHVsYXRpb24iOjEzODAwMDQzODUsImdpbmkiOnsiMjAxMSI6MzUuN30sImZpZmEiOiJJTkQiLCJjYXIiOnsic2lnbnMiOlsiSU5EIl0sInNpZGUiOiJsZWZ0In0sInRpbWV6b25lcyI6WyJVVEMrMDU6MzAiXSwiY29udGluZW50cyI6WyJBc2lhIl0sImZsYWdzIjp7InBuZyI6Imh0dHBzOi8vZmxhZ2Nkbi5jb20vdzMyMC9pbi5wbmciLCJzdmciOiJodHRwczovL2ZsYWdjZG4uY29tL2luLnN2ZyJ9LCJjb2F0T2ZBcm1zIjp7InBuZyI6Imh0dHBzOi8vbWFpbmZhY3RzLmNvbS9tZWRpYS9pbWFnZXMvY29hdHNfb2ZfYXJtcy9pbi5wbmciLCJzdmciOiJodHRwczovL21haW5mYWN0cy5jb20vbWVkaWEvaW1hZ2VzL2NvYXRzX29mX2FybXMvaW4uc3ZnIn0sInN0YXJ0T2ZXZWVrIjoibW9uZGF5IiwiY2FwaXRhbEluZm8iOnsibGF0bG5nIjpbMjguNiw3Ny4yXX0sInBvc3RhbENvZGUiOnsiZm9ybWF0IjoiIyMjIyMjIiwicmVnZXgiOiJeKFxcZHs2fSkkIn19LHsibmFtZSI6eyJjb21tb24iOiJCcml0aXNoIEluZGlhbiBPY2VhbiBUZXJyaXRvcnkiLCJvZmZpY2lhbCI6IkJyaXRpc2ggSW5kaWFuIE9jZWFuIFRlcnJpdG9yeSIsIm5hdGl2ZU5hbWUiOnsiZW5nIjp7Im9mZmljaWFsIjoiQnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5IiwiY29tbW9uIjoiQnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5In19fSwidGxkIjpbIi5pbyJdLCJjY2EyIjoiSU8iLCJjY24zIjoiMDg2IiwiY2NhMyI6IklPVCIsImluZGVwZW5kZW50IjpmYWxzZSwic3RhdHVzIjoib2ZmaWNpYWxseS1hc3NpZ25lZCIsInVuTWVtYmVyIjpmYWxzZSwiY3VycmVuY2llcyI6eyJVU0QiOnsibmFtZSI6IlVuaXRlZCBTdGF0ZXMgZG9sbGFyIiwic3ltYm9sIjoiJCJ9fSwiaWRkIjp7InJvb3QiOiIrMiIsInN1ZmZpeGVzIjpbIjQ2Il19LCJjYXBpdGFsIjpbIkRpZWdvIEdhcmNpYSJdLCJhbHRTcGVsbGluZ3MiOlsiSU8iXSwicmVnaW9uIjoiQWZyaWNhIiwic3VicmVnaW9uIjoiRWFzdGVybiBBZnJpY2EiLCJsYW5ndWFnZXMiOnsiZW5nIjoiRW5nbGlzaCJ9LCJ0cmFuc2xhdGlvbnMiOnsiYXJhIjp7Im9mZmljaWFsIjoi2KXZgtmE2YrZhSDYp9mE2YXYrdmK2Lcg2KfZhNmH2YbYr9mKINin2YTYqNix2YrYt9in2YbZiiIsImNvbW1vbiI6Itil2YLZhNmK2YUg2KfZhNmF2K3Ziti3INin2YTZh9mG2K/ZiiDYp9mE2KjYsdmK2LfYp9mG2YoifSwiYnJlIjp7Im9mZmljaWFsIjoiVGlyaWFkIGJyZWl6aHZldXJhdCBNZXVydm9yIEluZGV6IiwiY29tbW9uIjoiVGlyaWFkIGJyZWl6aHZldXJhdCBNZXVydm9yIEluZGV6In0sImNlcyI6eyJvZmZpY2lhbCI6IkJyaXRza8OpIGluZGlja29vY2XDoW5za8OpIMO6emVtw60iLCJjb21tb24iOiJCcml0c2vDqSBpbmRpY2tvb2Nlw6Fuc2vDqSDDunplbcOtIn0sImN5bSI6eyJvZmZpY2lhbCI6IlRpcmlvZ2FldGggQnJ5ZGVpbmlnIENlZm5mb3IgSW5kaWEiLCJjb21tb24iOiJUaXJpb2dhZXRoIEJyeWRlaW5pZyBDZWZuZm9yIEluZGlhIn0sImRldSI6eyJvZmZpY2lhbCI6IkJyaXRpc2NoZXMgVGVycml0b3JpdW0gaW0gSW5kaXNjaGVuIE96ZWFuIiwiY29tbW9uIjoiQnJpdGlzY2hlcyBUZXJyaXRvcml1bSBpbSBJbmRpc2NoZW4gT3plYW4ifSwiZXN0Ijp7Im9mZmljaWFsIjoiQnJpdGkgSW5kaWEgb29rZWFuaSBhbGEiLCJjb21tb24iOiJCcml0aSBJbmRpYSBvb2tlYW5pIGFsYSJ9LCJmaW4iOnsib2ZmaWNpYWwiOiJCcml0dGlsw6RpbmVuIEludGlhbiB2YWx0YW1lcmVuIGFsdWUiLCJjb21tb24iOiJCcml0dGlsw6RpbmVuIEludGlhbiB2YWx0YW1lcmVuIGFsdWUifSwiZnJhIjp7Im9mZmljaWFsIjoiVGVycml0b2lyZSBicml0YW5uaXF1ZSBkZSBsJyBvY8OpYW4gSW5kaWVuIiwiY29tbW9uIjoiVGVycml0b2lyZSBicml0YW5uaXF1ZSBkZSBsJ29jw6lhbiBJbmRpZW4ifSwiaHJ2Ijp7Im9mZmljaWFsIjoiQnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5IiwiY29tbW9uIjoiQnJpdGFuc2tpIEluZGlqc2tvb2NlYW5za2kgdGVyaXRvcmlqIn0sImh1biI6eyJvZmZpY2lhbCI6IkJyaXQgSW5kaWFpLcOzY2XDoW5pIFRlcsO8bGV0IiwiY29tbW9uIjoiQnJpdCBJbmRpYWktw7NjZcOhbmkgVGVyw7xsZXQifSwiaXRhIjp7Im9mZmljaWFsIjoiVGVycml0b3JpbyBicml0YW5uaWNvIGRlbGwnT2NlYW5vIEluZGlhbm8iLCJjb21tb24iOiJUZXJyaXRvcmlvIGJyaXRhbm5pY28gZGVsbCdvY2Vhbm8gaW5kaWFubyJ9LCJqcG4iOnsib2ZmaWNpYWwiOiLjgqTjgq7jg6rjgrnpoJjjgqTjg7Pjg4nmtIvlnLDln58iLCJjb21tb24iOiLjgqTjgq7jg6rjgrnpoJjjgqTjg7Pjg4nmtIvlnLDln58ifSwia29yIjp7Im9mZmljaWFsIjoi7J2464+EIOqzte2ZlOq1rSIsImNvbW1vbiI6IuyduOuPhCJ9LCJubGQiOnsib2ZmaWNpYWwiOiJCcml0cyBJbmRpc2NoZSBPY2VhYW4gVGVycml0b3JpdW0iLCJjb21tb24iOiJCcml0c2UgR2ViaWVkZW4gaW4gZGUgSW5kaXNjaGUgT2NlYWFuIn0sInBlciI6eyJvZmZpY2lhbCI6ItmC2YTZhdix2Ygg2KjYsduM2KrYp9mG24zYpyDYr9ixINin2YLbjNin2YbZiNizINmH2YbYryIsImNvbW1vbiI6ItmC2YTZhdix2Ygg2KjYsduM2KrYp9mG24zYpyDYr9ixINin2YLbjNin2YbZiNizINmH2YbYryJ9LCJwb2wiOnsib2ZmaWNpYWwiOiJCcnl0eWpza2llIFRlcnl0b3JpdW0gT2NlYW51IEluZHlqc2tpZWdvIiwiY29tbW9uIjoiQnJ5dHlqc2tpZSBUZXJ5dG9yaXVtIE9jZWFudSBJbmR5anNraWVnbyJ9LCJwb3IiOnsib2ZmaWNpYWwiOiJCcml0aXNoIEluZGlhbiBPY2VhbiBUZXJyaXRvcnkiLCJjb21tb24iOiJUZXJyaXTDs3JpbyBCcml0w6JuaWNvIGRvIE9jZWFubyDDjW5kaWNvIn0sInJ1cyI6eyJvZmZpY2lhbCI6ItCR0YDQuNGC0LDQvdGB0LrQsNGPINGC0LXRgNGA0LjRgtC+0YDQuNGPINCY0L3QtNC40LnRgdC60L7Qs9C+INC+0LrQtdCw0L3QsCIsImNvbW1vbiI6ItCR0YDQuNGC0LDQvdGB0LrQsNGPINGC0LXRgNGA0LjRgtC+0YDQuNGPINCyINCY0L3QtNC40LnRgdC60L7QvCDQvtC60LXQsNC90LUifSwic2xrIjp7Im9mZmljaWFsIjoiQnJpdHNrw6kgaW5kaWNrb29jZcOhbnNrZSDDunplbWllIiwiY29tbW9uIjoiQnJpdHNrw6kgaW5kaWNrb29jZcOhbnNrZSDDunplbWllIn0sInNwYSI6eyJvZmZpY2lhbCI6IlRlcnJpdG9yaW8gQnJpdMOhbmljbyBkZWwgT2PDqWFubyDDjW5kaWNvIiwiY29tbW9uIjoiVGVycml0b3JpbyBCcml0w6FuaWNvIGRlbCBPY8OpYW5vIMONbmRpY28ifSwic3dlIjp7Im9mZmljaWFsIjoiQnJpdHRpc2thIHRlcnJpdG9yaWV0IGkgSW5kaXNrYSBPY2VhbmVuIiwiY29tbW9uIjoiQnJpdHRpc2thIHRlcnJpdG9yaWV0IGkgSW5kaXNrYSBPY2VhbmVuIn0sInR1ciI6eyJvZmZpY2lhbCI6IkJyaXRhbnlhIEhpbnQgT2t5YW51c3UgVG9wcmFrbGFyxLEiLCJjb21tb24iOiJCcml0YW55YSBIaW50IE9reWFudXN1IFRvcHJha2xhcsSxIn0sInVyZCI6eyJvZmZpY2lhbCI6Itio2LHYt9in2YbZiNuMINio2K3YsduB2YbYryDYrti324EiLCJjb21tb24iOiLYqNix2LfYp9mG2YjbjCDYqNit2LHbgdmG2K8g2K7Yt9uBIn0sInpobyI6eyJvZmZpY2lhbCI6IuiLseWxnuWNsOW6pua0i+mihuWcsCIsImNvbW1vbiI6IuiLseWxnuWNsOW6pua0i+mihuWcsCJ9fSwibGF0bG5nIjpbLTYuMCw3MS41XSwibGFuZGxvY2tlZCI6ZmFsc2UsImFyZWEiOjYwLjAsImRlbW9ueW1zIjp7ImVuZyI6eyJmIjoiSW5kaWFuIiwibSI6IkluZGlhbiJ9fSwiZmxhZyI6Ilx1RDgzQ1x1RERFRVx1RDgzQ1x1RERGNCIsIm1hcHMiOnsiZ29vZ2xlTWFwcyI6Imh0dHBzOi8vZ29vLmdsL21hcHMvYmhlTnVjZ2VrVkVZb3pvaTYiLCJvcGVuU3RyZWV0TWFwcyI6Imh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnL3JlbGF0aW9uLzE5OTM4NjcifSwicG9wdWxhdGlvbiI6MzAwMCwiY2FyIjp7InNpZ25zIjpbIkdCIl0sInNpZGUiOiJyaWdodCJ9LCJ0aW1lem9uZXMiOlsiVVRDKzA2OjAwIl0sImNvbnRpbmVudHMiOlsiQXNpYSJdLCJmbGFncyI6eyJwbmciOiJodHRwczovL2ZsYWdjZG4uY29tL3czMjAvaW8ucG5nIiwic3ZnIjoiaHR0cHM6Ly9mbGFnY2RuLmNvbS9pby5zdmcifSwiY29hdE9mQXJtcyI6e30sInN0YXJ0T2ZXZWVrIjoibW9uZGF5IiwiY2FwaXRhbEluZm8iOnsibGF0bG5nIjpbLTcuMyw3Mi40XX19XQ==
+  recorded_at: Tue, 17 Jan 2023 18:01:20 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/air_pollution?appid=52539237b222aa7bfc7ba991720d7ae6&lat=28.6&lon=77.2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 18:01:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution?lat=28.6&lon=77.2"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.2,"lat":28.6},"list":[{"main":{"aqi":5},"components":{"co":2830.51,"no":20.56,"no2":65.8,"o3":0.07,"so2":17.41,"pm2_5":244.56,"pm10":302.44,"nh3":18.24},"dt":1673978480}]}'
+  recorded_at: Tue, 17 Jan 2023 18:01:20 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Tue, 17 Jan 2023 18:02:59 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '87'
+    body:
+      encoding: UTF-8
+      string: '{"message":"Page Not Found","_links":{"self":{"href":"/v3.1/name/","templated":false}}}'
+  recorded_at: Tue, 17 Jan 2023 18:02:59 GMT
+recorded_with: VCR 6.1.0
