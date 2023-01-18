@@ -31,7 +31,7 @@ RSpec.describe 'Favorites', type: :request do
     it 'the api_key is valid, returns all recipes that the user has favorited' do
       get "/api/v1/favorites", params: { api_key: @user1.api_key }
 
-      expect(response).to have_http_status(201)
+      expect(response).to have_http_status(200)
       favorites = JSON.parse(response.body, symbolize_names: true)
       expect(favorites).to be_a(Hash)
       expect(favorites).to have_key(:data)
@@ -60,7 +60,7 @@ RSpec.describe 'Favorites', type: :request do
     it 'user has not favorited any recipes' do
       get "/api/v1/favorites", params: { api_key: @user2.api_key }
     
-      expect(response).to have_http_status(201)
+      expect(response).to have_http_status(200)
     
       favorites = JSON.parse(response.body, symbolize_names: true)
     
