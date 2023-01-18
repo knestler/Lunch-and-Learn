@@ -8,7 +8,7 @@ class FavoritesSerializer
           recipe_title: favorite.recipe_title,
           recipe_link: favorite.recipe_link,
           country: favorite.country,
-          # created_at: favorite.created_at
+          created_at: favorite.created_at
         }
       }
       end

@@ -8,7 +8,6 @@ RSpec.describe RecipeFacade do
         expect(connection).to be_a Array
         expect(connection[0].title).to eq('Avocado from Mexico, Orange and Watercress Salad. Adapted from Chef Richard Sandoval, New York, Mexico and Dubai')
         expect(connection[0].country).to eq('Mexico')
-
       end
     end
   end

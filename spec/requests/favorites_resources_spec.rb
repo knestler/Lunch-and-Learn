@@ -7,7 +7,7 @@ RSpec.describe 'Favorites', type: :request do
       valid_params = { api_key: "bku6r7fvgo877", country: "Mexico", recipe_link: "https://www.taco.com", recipe_title: "Cassava Flour Tacos"}
       
       post "/api/v1/favorites", params: valid_params
-      # require 'pry'; binding.pry
+
       expect(response).to have_http_status(201)
     end
 
@@ -42,9 +42,9 @@ RSpec.describe 'Favorites', type: :request do
       expect(favorites[:data][0][:attributes][:recipe_link]).to be_a(String)
       expect(favorites[:data][0][:attributes][:recipe_title]).to be_a(String)
       expect(favorites[:data][0][:attributes][:country]).to be_a(String)
+      expect(favorites[:data][0][:attributes][:created_at]).to be_a(String)
     end
 
-    
     it 'api_key is invalid' do
       get "/api/v1/favorites", params: { api_key: "" }
       
