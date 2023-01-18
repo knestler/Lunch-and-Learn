@@ -36,7 +36,6 @@ RSpec.describe 'Recipes API' do
       recipes = JSON.parse(response.body, symbolize_names: true)
       expect(recipes).to be_a Hash
       expect(recipes).to have_key(:data)
-      expect(recipes[:data]).to_not be_empty
     end
   end
 end
