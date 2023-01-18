@@ -1,6 +1,6 @@
 <h1> Lunch and Learn </h1>
 
-### Learning Goals
+## Learning Goals
 
 - Expose an API that aggregates data from multiple external APIs
 - Expose an API that requires an authentication token
@@ -9,32 +9,31 @@
 - Test both API consumption and exposure, making use of at least one mocking tool (VCR, Webmock, etc).
 
 
-### Setup/Installation Guide
+## Setup/Installation Guide
 - Fork this repository
 - Clone your fork
 - From the command line, install gems and set up your DB:
   - ```bundle install```
 
-## APIs used
+### APIs used
   -  Please follow these links to get your API keys:
-    - Edmam: https://developer.edamam.com/edamam-recipe-api
-      - Name your API keys from Edamam ```id``` and ```key``` respectfully
-    - Youtube: https://developers.google.com/youtube/v3/getting-started
-      - Name your API key from Youtube ```Youtube_api_key``` respectfully
-    - Unsplash: https://unsplash.com/developers
-      - Name your API keys from Upsplash ```unsplash_access_key``` and ```unsplash_secret_key``` respectfully
-  - ```bundle exec figaro install```
+      - Edmam: https://developer.edamam.com/edamam-recipe-api
+      - Youtube: https://developers.google.com/youtube/v3/getting-started
+      - Unsplash: https://unsplash.com/developers
+
+  - Run ```bundle exec figaro install```
   - Go to ```config/application.yml```
     - Name your API keys from Edamam ```id``` and ```key``` respectfully
-    - Name your API key from Youtube ```Youtube_api_key```
+    - Name your API key from Youtube ```youtube_api_key```
     - Name your API keys from Upsplash ```unsplash_access_key``` and ```unsplash_secret_key``` respectfully
   - Run ```rails db:{create,migrate}```
   - Run the test suite with ```bundle exec rspec.```
+ 
 
 ### Endpoint Use
 
 - ### GET /api/v1/recipes
-  > fetch recipes based on a particular country
+  > fetch recipes of a country
   
   | Query Parameter        | Type          |  |
   | ------------- |:-------------:| -----:|
@@ -74,7 +73,7 @@
 <br>
 
 - ### GET /api/v1/learning_resources
-  > fetch learning resources for a particular country
+  > fetch learning resources of a country
 
   | Query Parameter        | Type          |  |
   | ------------- |:-------------:| -----:|
@@ -117,7 +116,7 @@
   <br>
 
 - ### POST /api/v1/users
-  > registers a user with Lunch and Learn
+  > register a user
  
    | Body (JSON)        | Type          |  |
   | ------------- |:-------------:| -----:|
@@ -141,7 +140,7 @@
   <br>
   
 - ### POST /api/v1/favorites
-  > adds recipes to a favorited list for a particular user
+  > adds recipes to a favorited list for a single user
   
   | Body (JSON)        | Type          |  |
   | ------------- |:-------------:| -----:|
@@ -159,7 +158,7 @@
   <br>
 
 - ### GET /api/v1/favorites
-  > fetch favorites of a particular user
+  > fetch favorites of a single user
   
   | Query Parameter        | Type          |  |
   | ------------- |:-------------:| -----:|
